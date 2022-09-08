@@ -20,6 +20,7 @@ public class Reader {
 
         String max_max_line = "";// Значение максимальной строки в папке
         String max_max_filename = "";
+        String word = "слово";
         for (File file : lst){
             System.out.println("файл "+file.getName());
             System.out.println("Читаем файл "+file.getName());
